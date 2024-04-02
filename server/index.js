@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 const corsOptions = {
-    origin: 'https://dall-e-rzmq.onrender.com/',
+    origin: 'https://dall-e-web-78mh.onrender.com',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     preflightContinue: true,
     optionsSuccessStatus: 204,
